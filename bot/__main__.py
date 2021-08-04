@@ -32,7 +32,7 @@ def help_message(app, message):
                                                             [InlineKeyboardButton("Join group",
                                                                                   url="https://t.me/anim_chatx")]]))
 
-@app.on_message(filters.user(sudo_users) & filters.incoming & (filters.video | filters.document))
+@app.on_message(filters.incoming & (filters.video | filters.document))
 def encode_video(app, message):
     if message.document:
       if not message.document.mime_type in video_mimetype:
