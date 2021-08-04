@@ -16,6 +16,9 @@ Configuration :
 - `API_HASH` - Get it by creating an app on [https://my.telegram.org](https://my.telegram.org)
 - `BOT_TOKEN` - Get it by creating a bot on [https://t.me/BotFather](https://t.me/BotFather)
 
+### Deploy Now:
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/royal78/ffmpeg-videoencoder/)
+
 ### My channel and group
 <a href="https://t.me/baka_no_onii"><img src="https://img.shields.io/badge/Oy-BAKA%20Telegram%20Channel-blue.svg?logo=telegram"></a>
 
