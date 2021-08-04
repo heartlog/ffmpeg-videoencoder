@@ -1,7 +1,7 @@
 import os
 from pyrogram import Client
 from dotenv import load_dotenv
-from bot.configs import Config
+from configs import Config
 
 
 api_id = Config.api_id
