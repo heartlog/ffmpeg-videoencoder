@@ -1,6 +1,7 @@
 import os
 from pyrogram import Client
 from dotenv import load_dotenv
+from bot.configs import Config
 
 if os.path.exists('config.env'):
   load_dotenv('config.env')
