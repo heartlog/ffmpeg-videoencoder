@@ -17,3 +17,7 @@ video_mimetype = [
   "video/quicktime",
   "video/mpeg"
   ]
+
+@app.on_message(filters.incoming & filters.command(['start', 'help']))
+def help_message(app, message):
+    message.reply_text(f"Hi {message.from_user.mention()}\nIts bot to ensode video to ffmpeg encode..\nThe bot is developed by @diablo_13N\n"
