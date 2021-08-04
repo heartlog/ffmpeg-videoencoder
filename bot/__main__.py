@@ -20,7 +20,7 @@ video_mimetype = [
 
 @app.on_message(filters.incoming & filters.command(['start', 'help']))
 def help_message(app, message):
-    message.reply_text(f"Hi {message.from_user.mention()}\nIts bot to ensode video to ffmpeg encode..\nThe bot is developed by @diablo_13N\n"
+    message.reply_text(f"Hi {message.from_user.mention()}\nIts bot to ensode video to ffmpeg encode..\nThe bot is developed by @diablo_13N\n",
                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Clone this bot for free !",
                                                                                   url="https://github.com/royal78/ffmpeg-cov")],
                                                             [InlineKeyboardButton("My developer",
