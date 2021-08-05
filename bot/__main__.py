@@ -1,4 +1,6 @@
 from pyrogram import filters
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery, ForceReply, \
+    InlineQueryResultArticle, InputTextMessageContent, InlineQuery
 from bot import app, data
 from bot.helper.utils import add_task
 
