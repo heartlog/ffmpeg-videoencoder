@@ -23,14 +23,14 @@ def help_message(app, message):
     message.reply_text(f"Hi {message.from_user.mention()}\nIts bot to encode video to ffmpeg encode..\nJust send me video I will do the rest...\nThe bot is developed by @diablo_13N\n",
                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Clone this bot for free !",
                                                                                   url="https://github.com/royal78/ffmpeg-cov")],
-                                                            [InlineKeyboardButton("My developer",
-                                                                                  url="t.me/diablo_13N")],
-                                                            [InlineKeyboardButton("Github page",
-                                                                                  url="https://github.com/royal78/ffmpeg-cov")],
-                                                            [InlineKeyboardButton("Join channel for updates",
-                                                                                  url="https://t.me/baka_no_onii")],
-                                                            [InlineKeyboardButton("Join group",
-                                                                                  url="https://t.me/anim_chatx")]]))
+                                                          [InlineKeyboardButton("My developer",
+                                                                                url="t.me/diablo_13N")],
+                                                          [InlineKeyboardButton("Github page",
+                                                                                url="https://github.com/royal78/ffmpeg-cov")],
+                                                          [InlineKeyboardButton("Join channel for updates",
+                                                                                url="https://t.me/baka_no_onii")],
+                                                          [InlineKeyboardButton("Join group",
+                                                                                url="https://t.me/anim_chatx")]]))
 
 @app.on_message(filters.incoming & (filters.video | filters.document))
 def encode_video(app, message):
