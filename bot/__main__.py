@@ -1,5 +1,5 @@
 from pyrogram import filters
-from bot import app, data, sudo_users
+from bot import app, data
 from bot.helper.utils import add_task
 
 video_mimetype = [
