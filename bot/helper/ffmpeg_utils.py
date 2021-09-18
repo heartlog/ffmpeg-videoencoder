@@ -28,7 +28,8 @@ def get_codec(filepath, channel="v:0"):
 def encode(filepath):
     basefilepath = os.path.splitext(filepath)[0]
     output_filepath = basefilepath + ".HEVC" + ".mp4"
-    assert output_filepath != filepath
+    if output_filepath == filepath:
+        raise AssertionError
     if os.path.isfile(output_filepath):
         logging.info('Skipping "{}": file already exists'.format(output_filepath))
         return None
