@@ -26,3 +26,4 @@ Configuration :
 
 ## just give me credit for making this code 😇
 
+-- Some repo in pypi is missing and changed so code might not work properly.
