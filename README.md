@@ -1,7 +1,8 @@
 # Important
-```
+`
 This repo is outdated and buggy. So, it might not work as intended.
-```
+`
++ Will making new bot if I got time...
 
 # ffmpeg video encoder bot
 A Telegram bot to convert videos into x265/x264 format via ffmpeg.
